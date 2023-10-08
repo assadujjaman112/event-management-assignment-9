@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import swal from 'sweetalert';
+import Footer from "../components/footer/Footer";
 
 const Login = () => {
     const {signIn} = useContext(AuthContext);
@@ -67,6 +68,7 @@ const Login = () => {
           </form>
           <p className="mt-7 text-center">Do not have an account?<Link className="text-red-400 font-bold" to="/register">Register</Link></p>
         </div>
+        <Footer></Footer>
     </div>
   );
 };

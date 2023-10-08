@@ -5,11 +5,9 @@ import { AuthContext } from "../../providers/AuthProvider";
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
-  const handleSignOut = ()=> {
-    logOut()
-    .then()
-    .catch()
-  }
+  const handleSignOut = () => {
+    logOut().then().catch();
+  };
   return (
     <div className="bg-[#3b4252] py-5 ">
       <div className="w-4/5 mx-auto flex flex-col md:flex-row justify-between items-center text-white">
@@ -58,9 +56,45 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
+          <li>
+            {user && (
+              <NavLink
+                to="/events"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                    : ""
+                }
+              >
+                Events
+              </NavLink>
+            )}
+          </li>
+          <li>
+            {user && (
+              <NavLink
+                to="/features"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                    : ""
+                }
+              >
+                Features
+              </NavLink>
+            )}
+          </li>
+          
         </ul>
         {user ? (
-          <button onClick={handleSignOut} className="btn bg-red-400 border-none text-white hover:text-black">
+          <button
+            onClick={handleSignOut}
+            className="btn bg-red-400 border-none text-white hover:text-black"
+          >
             Sign Out
           </button>
         ) : (

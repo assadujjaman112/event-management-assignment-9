@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import swal from 'sweetalert';
+import Footer from "../components/footer/Footer";
 
 const Register = () => {
     const {createUser} = useContext(AuthContext);
@@ -83,6 +84,7 @@ const Register = () => {
           </Link>
         </p>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

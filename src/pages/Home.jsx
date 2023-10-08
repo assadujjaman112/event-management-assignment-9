@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner/Banner";
 import Service from "./Service";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   const services = useLoaderData();
@@ -15,6 +16,7 @@ const Home = () => {
           <Service key={service.id} service={service}></Service>
         ))}
       </div>
+      <Footer></Footer>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/footer/Footer";
 
 const Service = ({ service }) => {
   const { id, title, img, price, description } = service;

@@ -5,8 +5,10 @@ import ServiceCard from "../serviceCard/ServiceCard";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import About from "../components/about/About";
 import PrivateRoute from "./PrivateRoute";
+import Events from "../events/Events";
+import Features from "../pages/Features";
+import About from "../pages/About";
 
 
 const router = createBrowserRouter([
@@ -23,6 +25,15 @@ const router = createBrowserRouter([
             {
                 path : "/contact",
                 element : <Contact></Contact>
+            },
+            {
+                path : "/events",
+                element : <PrivateRoute><Events></Events></PrivateRoute>,
+                loader : ()=> fetch("/events.json")
+            },
+            {
+                path : "/features",
+                element :<PrivateRoute><Features></Features></PrivateRoute>
             },
             {
                 path : "/about",

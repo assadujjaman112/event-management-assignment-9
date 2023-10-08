@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "GameFest 2023",
+    "description": "Join us for GameFest 2023, the ultimate gaming extravaganza! Immerse yourself in cutting-edge technology, epic battles, and non-stop action. Meet fellow gamers, explore the latest game releases, and compete in thrilling esports tournaments. Don't miss the gaming event of the year!",
+    "img": "https://www.infobae.com/new-resizer/tZLjEN2sYjy71zUdMSd77yHYpEk=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/SHWAOVU65FD2BBKMGK5OB673Y4.jpg",
+    "prize" : 10000
+  },
+  {
+    "id": 2,
+    "title": "RetroGamer Reunion",
+    "description": "Experience gaming nostalgia at RetroGamer Reunion! Step back in time with classic consoles, retro arcades, and a nostalgic atmosphere. Relive your favorite gaming moments and connect with fellow retro enthusiasts. Join us for a trip down memory lane!",
+    "img": "https://res.cloudinary.com/simpleview/image/upload/v1561485008/clients/arlington/Copy_of_Stadium_1_Stage_Wide_2x3_crop_63cfdb84-0a49-4d10-bd83-c92b374be920.jpg",
+    "prize" : 9000
+  },
+  {
+    "id": 3,
+    "title": "eSports Clash",
+    "description": "Witness intense esports rivalries at eSports Clash! Top players compete for glory, fame, and cash prizes in thrilling battles. Whether you're a pro or a fan, this event promises excitement and esports action like never before.",
+    "img": "https://www.sportstravelmagazine.com/wp-content/uploads/2020/01/Esports-Stadium-Arlington-Interior-high-res-scaled.jpg",
+    "prize" : 11000
+  },
+  {
+    "id": 4,
+    "title": "PixelQuest Expo",
+    "description": "Dive into a world of indie creativity at PixelQuest Expo! Every pixel tells a unique story in this pixelated adventure. Explore indie games, meet developers, and be part of an artistic gaming experience.",
+    "img": "https://met.events/wp-content/uploads/2017/11/The-Rise-of-Major-Gaming-Events-in-the-World_COVER.jpg",
+    "prize" : 15000
+  },
+  {
+    "id": 5,
+    "title": "Console Carnival",
+    "description": "Experience console magic at Console Carnival! Get hands-on with demos, join tournaments, and enjoy family-friendly gaming fun. Discover the latest in console gaming and create unforgettable gaming memories.",
+    "img": "https://www.lifeupnorth.co.uk/wp-content/uploads/gaming.jpg",
+    "prize" : 12000
+  },
+  {
+    "id": 6,
+    "title": "GameCrafters Showcase",
+    "description": "Explore the artistry of game design at GameCrafters Showcase! Talented creators unveil their latest masterpieces, showcasing the creativity behind gaming. Immerse yourself in the world of game development and innovation.",
+    "img": "https://innov8tiv.com/wp-content/uploads/2018/08/Best-Gaming-Events-2018-4-1280x720.jpg",
+    "prize" : 10500
+  },
+  {
+    "id": 7,
+    "title": "GameMania Xtreme",
+    "description": "Get ready for adrenaline-pumping action at GameMania Xtreme! Compete in thrilling competitions, cosplay as your favorite characters, and be prepared for surprises at every turn. Don't miss this epic gaming adventure!",
+    "img": "https://www.jandsvision.com/wp-content/uploads/2019/01/adult-competition-computers-929831.jpg",
+    "prize" : 20000
+  },
+  {
+    "id": 8,
+    "title": "QuestCon Odyssey",
+    "description": "Embark on epic quests, solve puzzles, and conquer challenges in a mythical gaming world at QuestCon Odyssey. Dive into immersive storytelling, teamwork, and adventure in this one-of-a-kind gaming experience.",
+    "img": "https://www.fifplay.com/img/public/big-gaming-competition.jpg",
+    "prize" : 25000
+  },
+  {
+    "id": 9,
+    "title": "Playtopia Fiesta",
+    "description": "Immerse yourself in a gaming paradise at Playtopia Fiesta! Enjoy diverse games, participate in thrilling tournaments, and engage in interactive experiences. Discover new gaming horizons and make unforgettable memories at this fiesta!",
+    "img": "https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2022/04/05112705/esports-team-500x281.jpg",
+    "prize" : 30000
+  }
+]
