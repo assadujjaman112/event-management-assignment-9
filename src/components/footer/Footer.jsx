@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="footer justify-evenly py-20 bg-[#3b4252] text-white mt-52 md:mt-0 ">
+      <footer className="footer justify-evenly py-20 bg-[#3b4252] text-white ">
         <nav>
           <header className="footer-title ">Services</header>
           <a className="link link-hover">Branding</a>

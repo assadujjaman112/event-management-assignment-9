@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="hero h-[85vh]"
+        className="px-5 py-20 bg-cover opacity-70"
         style={{
           backgroundImage:
             "url(https://img.freepik.com/premium-photo/male-hand-holding-smart-mobile-phone-with-phone-icon-call-now-business-communication-support-center-customer-service-technology-concept-neon-red-blue-light-background_150455-10009.jpg?w=1380)",
@@ -38,7 +38,7 @@ const Contact = () => {
             <form action="">
               <input
                 type="text"
-                className="mb-3 w-1/2 px-4 py-2 rounded-lg"
+                className="mb-3 w-4/5 md:w-1/2 px-4 py-2 rounded-lg"
                 name=""
                 id=""
                 placeholder="Your name"
@@ -46,7 +46,7 @@ const Contact = () => {
               <br />
               <input
                 type="text"
-                className="mb-3 w-1/2 px-4 py-2 rounded-lg"
+                className="mb-3 w-4/5 md:w-1/2 px-4 pt-2 pb-24 rounded-lg"
                 name=""
                 id=""
                 placeholder="Your message"

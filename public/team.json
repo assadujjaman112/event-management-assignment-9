@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "img": "https://amlosports.com/wp-content/uploads/2019/05/hx-photogallery-influencer-shroud-6-zm-lg.jpg",
+      "title": "Shroud",
+      "role": "CEO and Founder"
+    },
+    {
+      "id": 2,
+      "img": "https://img.gurugamer.com/resize/1200x-/2020/08/03/a1f8af8fd1575d92d8fac7820459e8ad-6295.jpg",
+      "title": "ScoutOP",
+      "role": "Team Leader"
+    },
+    {
+      "id": 3,
+      "img": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/4/23/hry6eacr8pt5g1hjpkbk/ninjas-ultimate-stream-room-art",
+      "title": "Ninja",
+      "role": "Team Member"
+    }
+  ]
+  

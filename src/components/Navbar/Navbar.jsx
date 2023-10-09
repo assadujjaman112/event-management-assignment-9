@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className="bg-[#3b4252] py-5 ">
-      <div className="w-4/5 mx-auto flex flex-col md:flex-row justify-between items-center text-white">
+      <div className="w-4/5 mx-auto flex flex-col lg:flex-row justify-between items-center text-white">
         <h1 className="text-3xl font-extrabold">PlayPulse Events</h1>
         <ul className="flex gap-5 my-5">
           <li>
@@ -57,50 +57,45 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            {user && (
-              <NavLink
-                to="/events"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
-                    : ""
-                }
-              >
-                Events
-              </NavLink>
-            )}
+            <NavLink
+              to="/events"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                  : ""
+              }
+            >
+              Events
+            </NavLink>
           </li>
           <li>
-            {user && (
-              <NavLink
-                to="/features"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
-                    : ""
-                }
-              >
-                Features
-              </NavLink>
-            )}
+            <NavLink
+              to="/features"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                  : ""
+              }
+            >
+              Features
+            </NavLink>
           </li>
-          
         </ul>
         {user ? (
           <button
             onClick={handleSignOut}
-            className="btn bg-red-400 border-none text-white hover:text-black"
+            className="btn bg-red-400 border-none text-white hover:text-black w-full md:w-28"
           >
             Sign Out
           </button>
         ) : (
           <Link
             to="/login"
-            className="btn bg-red-400 border-none text-white hover:text-black"
+            className="btn bg-red-400 border-none text-white hover:text-black w-full md:w-28"
           >
             Login
           </Link>

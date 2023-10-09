@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import Footer from "../components/footer/Footer";
 
 const Service = ({ service }) => {
   const { id, title, img, price, description } = service;
   return (
     <div>
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="card card-compact  bg-base-100 shadow-xl">
         <figure>
           <img
             src={img}

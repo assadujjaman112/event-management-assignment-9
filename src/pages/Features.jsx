@@ -6,7 +6,7 @@ const Features = () => {
       <h1 className="text-xl md:text-5xl font-bold text-center mb-8 ">
         Top-Notch <span className="text-red-400">Features</span> Included
       </h1>
-      <div className="w-4/5 mx-auto my-5">
+      <div className="w-4/5 mx-auto mt-10 mb-16">
         <h1 className="text-3xl font-bold ">Support</h1>
         <div className="flex flex-col gap-5 md:flex-row">
           <div className="mt-5 flex-1 bg-gray-200 px-5 pt-5 pb-10 border-2 rounded-lg">
