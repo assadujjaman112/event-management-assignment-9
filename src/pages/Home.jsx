@@ -41,7 +41,7 @@ const Home = () => {
           unwavering support enables us to host an event that exceeds all
           expectations.
         </p>
-        <div className="mt-5 w-4/5 mx-auto flex flex-wrap justify-around items-center">
+        <div className="mt-5 w-4/5 mx-auto flex flex-wrap justify-around items-center ">
           <SiRakuten className="text-7xl my-[-10px] md:my-0"></SiRakuten>
           <SiCocacola className="text-9xl my-[-10px] md:my-0"></SiCocacola>
           <SiIntel className="text-7xl my-[-10px] md:my-0"></SiIntel>
@@ -110,11 +110,15 @@ const Home = () => {
           className="collapse collapse-arrow border border-base-300 bg-base-200"
         >
           <div className="collapse-title text-xl font-medium">
-          Will there be opportunities for networking or meeting other gamers?
+            Will there be opportunities for networking or meeting other gamers?
           </div>
           <div className="collapse-content">
             <p>
-            Absolutely! We understand that gaming events are not just about competition; they are also a great opportunity to connect with like-minded individuals who share your passion for gaming. We will have designated areas within the event venue where you can relax, socialize, and meet other gamers.
+              Absolutely! We understand that gaming events are not just about
+              competition; they are also a great opportunity to connect with
+              like-minded individuals who share your passion for gaming. We will
+              have designated areas within the event venue where you can relax,
+              socialize, and meet other gamers.
             </p>
           </div>
         </div>
@@ -128,10 +132,10 @@ const Home = () => {
           <div className="collapse-content">
             <p>
               {" "}
-              Yes, there is ample parking available near the event venue. We have
-              made sure that parking is convenient for all attendees, so you
-              will not have to worry about finding a spot. Just follow the event
-              signs to the designated parking area.
+              Yes, there is ample parking available near the event venue. We
+              have made sure that parking is convenient for all attendees, so
+              you will not have to worry about finding a spot. Just follow the
+              event signs to the designated parking area.
             </p>
           </div>
         </div>
