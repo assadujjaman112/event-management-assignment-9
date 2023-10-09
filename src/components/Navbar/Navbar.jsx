@@ -8,6 +8,7 @@ const Navbar = () => {
   const handleSignOut = () => {
     logOut().then().catch();
   };
+  console.log(user)
   return (
     <div className="bg-[#3b4252] py-5 ">
       <div className="w-4/5 mx-auto flex flex-col lg:flex-row justify-between items-center text-white">
@@ -57,34 +58,43 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/events"
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "text-white bg-red-400 rounded-lg px-3 py-1"
-                  : ""
-              }
-            >
-              Events
-            </NavLink>
+            {user && (
+              <NavLink
+                to="/events"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                    : ""
+                }
+              >
+                Events
+              </NavLink>
+            )}
           </li>
           <li>
-            <NavLink
-              to="/features"
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? "pending"
-                  : isActive
-                  ? "text-white bg-red-400 rounded-lg px-3 py-1"
-                  : ""
-              }
-            >
-              Features
-            </NavLink>
+            {user && (
+              <NavLink
+                to="/features"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white bg-red-400 rounded-lg px-3 py-1"
+                    : ""
+                }
+              >
+                Features
+              </NavLink>
+            )}
           </li>
         </ul>
+        {user && 
+        <div className="flex items-center gap-6">
+          <img src={user.photoURL} className="w-12 rounded-full" alt="" />
+          <h2>{user.displayName}</h2>
+          </div>}
         {user ? (
           <button
             onClick={handleSignOut}

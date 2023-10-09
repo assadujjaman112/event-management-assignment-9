@@ -9,12 +9,14 @@ import PrivateRoute from "./PrivateRoute";
 import Events from "../events/Events";
 import Features from "../pages/Features";
 import About from "../pages/About";
+import ErrorPage from "../components/error/ErrorPage";
 
 
 const router = createBrowserRouter([
     {
         path : "/",
         element : <MainLayout></MainLayout>,
+        errorElement : <ErrorPage></ErrorPage>,
         children : [
             {
                 path : "/",
