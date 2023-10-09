@@ -1,4 +1,11 @@
 
+Website Name : PlayPulse Events
+
+Live link : https://event-management-assignm-7f14b.web.app/
+
+
+
+
 
 
 Features of My Project : -
