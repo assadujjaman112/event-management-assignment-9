@@ -21,7 +21,7 @@ console.log(greetign);
 #### Answer: A
 
 
-<i>Write your explanation here</i>
+<i></i>
 we can see that when greeting was declared its value was undefined but after that we set the greeting value as an empty object . Thats why it will return an empty object.
 </p>
 </details>
@@ -46,7 +46,7 @@ sum(1, "2");
 
 #### Answer: C
 
-<i>Write your explanation here</i>
+<i></i>
 as we can see  sum function has 2 parameters and one of them is a string . we know that we can not add a number with a string . when we try to add them instead of adding they concatenate with each other and returns a string.
 
 </p>
@@ -73,7 +73,7 @@ console.log(food);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
+<i></i>
 as we can see food is an array .so when  we do console.log(food) we will get an array.
 
 </p>
@@ -99,7 +99,7 @@ console.log(sayHi());
 
 #### Answer: B
 
-<i>Write your explanation here</i>
+<i></i>
 sayHi function has a parameter named name. when we run a function with parameter we must call the function with an argument . But here we called the function without giving any argument thats why the value of name parameter will be undefined.
 </p>
 </details>
@@ -127,7 +127,7 @@ console.log(count);
 
 #### Answer: C
 
-<i>Write your explanation here</i>
+<i></i>
 nums is an array . so forEach will return each element of the array and will loop through it. nums array has 4 elements. but 0 is a falsy value, for falsy if statement will not work. For every truthy value count will add + 1 with it. so for 3 truthy value the count will be 3.
 </p>
 </details>
