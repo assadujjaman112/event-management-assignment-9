@@ -19,3 +19,13 @@ Features of My Project : -
 - As our website is made for managing gaming events. So we made a page called events. Here we will share upcoming events and their details. But this page is private to get access to the page user need to login or Register first.
 
 - We have another section in our website called frequently asked questions. Here we answer some questions which people ask us commonly . The section is totally public and anyone can read these answers.
+
+
+Technologies :-
+
+- HTML
+- CSS
+- Tailwindcss
+- JavaScript
+- React
+- Firebase
